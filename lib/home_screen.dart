@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Stack(
         children: <Widget> [
           Container(
-            height: size.height * .3,
+            height: size.height * .5,
             decoration: BoxDecoration(
               image: DecorationImage(
                 alignment:Alignment.topCenter,
@@ -67,7 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: <Widget>[
-                                Image.asset('home.png', height: 128,),
+                                Image.asset('assets/home.png', height: 128,),
                                 Text('Home'),
                               ],
                             ),
@@ -80,7 +80,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: <Widget>[
-                                Image.asset('shop.png', height: 128,),
+                                Image.asset('assets/shop.png', height: 128,),
                                 Text('Shop'),
                               ],
                             ),
@@ -93,7 +93,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: <Widget>[
-                                Image.asset('timer.png', height: 128,),
+                                Image.asset('assets/timer.png', height: 128,),
                                 Text('Timer'),
                               ],
                             ),
@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: <Widget>[
-                                Image.asset('settings.png', height: 128,),
+                                Image.asset('assets/settings.png', height: 128,),
                                 Text('Settings'),
                               ],
                             ),

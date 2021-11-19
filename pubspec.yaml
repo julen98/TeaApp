@@ -46,6 +46,11 @@ flutter:
 
   assets:
     - assets/top_header.png
+    - assets/home.png
+    - assets/shop.png
+    - assets/timer.png
+    - assets/settings.png
+
   
 
   # To add assets to your application, add an assets section, like this:
